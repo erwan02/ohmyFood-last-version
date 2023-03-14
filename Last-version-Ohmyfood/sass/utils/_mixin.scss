@@ -1,0 +1,16 @@
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     
+}
+
+@mixin wrap{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin shadow-titre{
+    box-shadow: 0px 2px 4px 0.2px #979292 inset;
+}

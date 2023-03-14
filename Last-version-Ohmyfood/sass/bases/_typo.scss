@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Shrikhand&display=swap');
+
+*,
+::before
+::after
+{box-sizing: border-box;}
+
+body {
+    margin : 0% -1%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a{ 
+    text-decoration:none;  
+    color:$black;
+}
+
+
+h1, h6{
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+}
+     
+
+    
+h6{ font-size:35px;
+    margin: 0px 0px 0px 8px;
+}
+
+
+
+  
+ //plats page-resto
+
+h2 {
+    margin: 4% 5%;
+   
+    border-bottom: $trait-vert ;
+    width: 65px; 
+    padding-bottom: 4px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+
+//titre : fonctionnement et restaurant
+h4 {
+    font-size: 36px;
+    padding: 4% 0% 3% 7%;
+    margin: 0%;
+}
+
+
+h5{
+   font-size:20px;
+   margin:12px 0px 14px 0px;   
+}
+
+
+p{
+    font-size: 18px;
+}
+
+.container-gps, .gps .explorer, .page, .restaurant-color{
+    background-color: $fond-gris;   
+}
+
+

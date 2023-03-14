@@ -1,0 +1,32 @@
+footer{
+  background-color: #353535;
+  padding: 5% 4%;
+  color: white;}
+
+footer {
+    @media(min-width: 768px){
+      text-align: center;
+    }
+      
+    
+    
+    a{text-decoration: none;
+    color: white;
+    padding-bottom: 50px;
+     
+    p,a{ margin:15px;
+    
+    h3{font-family:"Shrilkand","sans-serif";
+    font-weight: 500;
+ 
+    p{ padding: 2px;}
+    }
+  } 
+  }
+    
+  .fa-handshake-angle{ 
+    padding-right: 5px;}
+    .fa-utensils{
+    padding-right: 15px;}}
+   
+    
